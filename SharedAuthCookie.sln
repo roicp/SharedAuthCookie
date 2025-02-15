@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc4FormAuthentication", "Mvc4FormAuthentication\Mvc4FormAuthentication.csproj", "{9AB8BAA5-4D3B-4FDF-8C27-29C36F6C1C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc4OwinAuthentication", "Mvc4OwinAuthentication\Mvc4OwinAuthentication.csproj", "{89CDE9CA-B634-409C-8DA9-F734F4B3CC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcCoreAuthentication", "MvcCoreAuthentication\MvcCoreAuthentication.csproj", "{DED1B5C4-E243-4617-9426-B3A9281925CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AB8BAA5-4D3B-4FDF-8C27-29C36F6C1C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB8BAA5-4D3B-4FDF-8C27-29C36F6C1C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB8BAA5-4D3B-4FDF-8C27-29C36F6C1C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB8BAA5-4D3B-4FDF-8C27-29C36F6C1C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CDE9CA-B634-409C-8DA9-F734F4B3CC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CDE9CA-B634-409C-8DA9-F734F4B3CC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CDE9CA-B634-409C-8DA9-F734F4B3CC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CDE9CA-B634-409C-8DA9-F734F4B3CC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED1B5C4-E243-4617-9426-B3A9281925CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED1B5C4-E243-4617-9426-B3A9281925CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED1B5C4-E243-4617-9426-B3A9281925CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED1B5C4-E243-4617-9426-B3A9281925CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EE7FE1B-EB6A-4E29-A701-83B5B41C7466}
+	EndGlobalSection
+EndGlobal

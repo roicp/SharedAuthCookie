@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Internal Page";
+}
+
+<main>
+    <section class="row">
+        <h1 id="title">Authenticated</h1>
+        @using (Html.BeginForm("Logout", "Account", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <input type="submit" value="Sair">
+        }
+    </section>
+</main>
